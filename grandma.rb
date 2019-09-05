@@ -4,7 +4,7 @@ def speak_to_grandma(phrase)
   if phrase.capitalize
     return "I LOVE YOU TOO PUMPKIN!"
   elsif   
-    return "HUH? SPEAK UP, SONNY!"
+    puts "HUH? SPEAK UP, SONNY!"
   end 
 end
 # Whatever you say to grandma, she should respond with
