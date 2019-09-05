@@ -1,10 +1,11 @@
 # Write a speak_to_grandma method.
 
 def speak_to_grandma(phrase)
-  if phrase.capitalize
-    return "NO, NOT SINCE 1938!"
+  
   elsif phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
+  if phrase.capitalize
+    return "NO, NOT SINCE 1938!"
   elsif phrase != phrase.capitalize
     puts "HUH? SPEAK UP, SONNY!"
   end 
